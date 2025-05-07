@@ -54,7 +54,7 @@ def main():
     show_rat = args.show_rat or args.report_rat  # Enable RAT display if reporting is requested
     
     final_graph = vanginneken.place_buffers(graph, timing_model, args.show_bufs, show_rat)
-    final_graph.store_to_json(out_file + ".json")
+    final_graph.store_to_json(out_file + "_out.json")
 
     # Output final graph in DOT format if requested
     if args.file_to_dump:

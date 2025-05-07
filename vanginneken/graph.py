@@ -552,7 +552,7 @@ class Graph:
             x=position[0],
             y=position[1],
             type=Node.BUFFER_TYPE,
-            name="buf"
+            name="buf1x"
         )
         
         # Find the edge that contains this position
